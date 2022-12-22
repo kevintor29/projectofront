@@ -16,6 +16,8 @@ import {Provider} from 'react-redux';
 import store from './store/store';
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Sobrenos from './paginas/sobrenos/Sobrenos';
+import Nossamissao from './paginas/nossamissao/Nossamissao';
 
 
 function App() {
@@ -24,7 +26,6 @@ function App() {
       <ToastContainer />
       <Router>
       <Navbar />
-      <div style={{ minHeight: '100vh' }}>
         <Routes>
 
           <Route path="/" element={<Login />} />
@@ -50,10 +51,14 @@ function App() {
           <Route path="/deletarPostagem/:id" element={<DeletarPostagem />} />
 
           <Route path="/deletarTema/:id" element={<DeletarTema />} />
+         
+          <Route path='/nossamissao' element={<Nossamissao />}/>
+          
+          <Route path='/sobrenos' element={<Sobrenos />}/>
 
 
         </Routes>
-      </div>
+    
       <Footer />
 
     </Router>

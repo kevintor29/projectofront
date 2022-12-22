@@ -58,19 +58,23 @@ function ModalPostagem () {
   );
 
   return (
+    
     <div>
-      <Button
+       <Button
         variant="outlined"
-        className="btnModal"
+        className="btnModal botton txt"
         onClick={handleOpen}>Nova Postagem</Button>
+      
       <Modal
         open={open}
         onClose={handleClose}
         aria-labelledby="simple-modal-title"
         aria-describedby="simple-modal-description"
+        
       >
         {body}
       </Modal>
+    
     </div>
   );
 }

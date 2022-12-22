@@ -1,3 +1,24 @@
 .topo{
     margin-top: 20px;
+
+}
+
+.cordotexto{
+    color: rgb(5, 3, 3);
+}
+
+.cordotexto2{
+    color: white
+}
+
+.grid6{
+    background-color: rgb(111, 255, 111);
+   
+}
+
+.fundobackground{
+    background-color: black;
+}
+.fundo{
+    background-image: url('/src/components/estaticos/image/matrix.webp') !important;
 }

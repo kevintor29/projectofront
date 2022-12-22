@@ -51,19 +51,19 @@ function ListaPostagem() {
     <>
       {
         posts.map(post => (
-          <Box m={2} >
+          <Box m={2}>
             <Card variant="outlined">
-              <CardContent>
+              <CardContent className='fundobackground'>
                 <Typography color="textSecondary" gutterBottom>
-                  Postagens
+                  <h3 className='cordaletra'>Postagem </h3>
                 </Typography>
-                <Typography variant="h5" component="h2">
+                <Typography variant="h5" component="h2" className='cordaletra'>
                   {post.titulo}
                 </Typography>
-                <Typography variant="body2" component="p">
+                <Typography variant="body2" component="p" className='cordaletra'>
                   {post.texto}
                 </Typography>
-                <Typography variant="body2" component="p">
+                <Typography variant="body2" component="p" className='cordaletra'>
                   {post.tema?.descricao}
                 </Typography>
               </CardContent>
@@ -72,15 +72,15 @@ function ListaPostagem() {
 
                   <Link to={`/formularioPostagem/${post.id}`} className="text-decorator-none" >
                     <Box mx={1}>
-                      <Button variant="contained" className="marginLeft" size='small' color="primary" >
-                        atualizar
+                      <Button variant="contained" className="marginLeft botton txt" size='small' color="primary" >
+                        ATUALIZAR POSTAGEM
                       </Button>
                     </Box>
                   </Link>
                   <Link to={`/deletarPostagem/${post.id}`} className="text-decorator-none">
                     <Box mx={1}>
-                      <Button variant="contained" size='small' color="secondary">
-                        deletar
+                      <Button variant="contained" size='small' color="secondary" className='botton txt'>
+                        DELETAR A POSTAGEM
                       </Button>
                     </Box>
                   </Link>
