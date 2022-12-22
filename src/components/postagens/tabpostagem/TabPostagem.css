@@ -1,3 +1,11 @@
 .titulo{
     font-weight: bold;
  }
+ .text-decorator-none{
+    text-decoration: none;
+    color: rgb(55, 252, 58);
+}
+
+.back{
+    color: black;
+}

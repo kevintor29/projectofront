@@ -1,18 +1,18 @@
+.textos{
+    color: rgb(231, 215, 34);
+}
+
 .box1{
-    background-color: #3F51B5;
-    height: 120px;
+    background-color: #1b1818;
+    height: 70px;
 }
 
 .box2{
-    background-color: #303F9F;
+    background-color: #020309;
     height: 60px;
 }
 
 .redes{
-    font-size: 60px !important;
-    color: white;
-}
-
-.textos{
-   color: white;
+    font-size: 60 !important;
+    color: rgb(223, 182, 47);
 }

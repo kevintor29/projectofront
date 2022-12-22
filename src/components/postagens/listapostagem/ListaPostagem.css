@@ -1,3 +1,23 @@
 .text-decorator-none{
     text-decoration: none;
 }
+
+.posts{
+    background-image: url("/src/components/estaticos/image/matrix.webp") !important;
+    background-repeat:no-repeat ;
+  
+     background-size: cover ;
+     background-position:center;
+}
+
+.cordaletra{
+    color:white
+}
+
+.cordaletra2{
+    color:black
+}
+
+.backgroundimagem{
+    background-color: rgb(17, 67, 17)
+}
